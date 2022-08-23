@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 42%;
+  margin-top: 3cm;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 3cm;
+  color: rgb(12, 104, 19);
+  border-bottom: rgb(44, 202, 44);
+}
+
+p {
+  margin-left: 42%;
+  font-size: 10mm;
+  color: rgb(7, 53, 45);
+  font-family: "Times New Roman", Times, serif;
+}
+
+.button {
+  width: 8mm;
+  height: 8mm;
+  font-size: 25;
+  margin: 1mm;
+  box-decoration-break: slice;
+  border-color: darkgray;
+  background-size: 100mm;
+  animation-delay: inherit;
+}
+
+.textview {
+  height: 10mm;
+  width: 44mm;
+  font: size 25;
+  padding: 2mm;
+  background-color: rgb(179, 195, 149);
+  border: rgb(59, 62, 63);
+  border-style: double;
+  border-radius: 2mm;
+}
+
+.main {
+  position: absolute;
+  margin-top: 18%;
+  margin-left: 48%;
+  border-collapse: collapse;
+  border-color: rgb(196, 204, 160);
+  shape-image-threshold: inherit;
+  border-style: double;
+  transform: translateX(-50%) translateY(-110%);
+  width: 50mm;
+  border-radius: 5mm;
+  border-collapse: collapse;
+}
+
+table {
+  border-style: solid;
+  background-color: rgb(243, 239, 239);
+  padding-bottom: 0%;
+  border-radius: 2mm;
+  border-style: double;
+  border-top-color: currentColor;
+  padding-bottom: 3mm;
+  padding-left: 3mm;
+  padding-right: 3mm;
+}
+
+body {
+  background-color: rgb(220, 70, 62);
+}
+
+div {
+  background-size: 10px;
+  margin-top: 20%;
+}
